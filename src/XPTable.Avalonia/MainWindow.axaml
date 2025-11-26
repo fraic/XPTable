@@ -1,8 +1,9 @@
 <Window xmlns="https://github.com/avaloniaui"
-        xmlns:local="clr-namespace:XPTable.AvaloniaApp"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:XPTable.AvaloniaApp.Controls;assembly=XPTable.Avalonia"
         Title="XPTable Avalonia Sample" Width="900" Height="600">
   <Grid>
-    <!-- Put the XPTableControl here once implemented -->
-    <local:XPTableControl />
+    <!-- use the Controls namespace to reference the control implemented in Controls/XPTableControl.cs -->
+    <controls:XPTableControl />
   </Grid>
 </Window>
