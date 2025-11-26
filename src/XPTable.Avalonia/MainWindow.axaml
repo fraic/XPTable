@@ -1,0 +1,8 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:local="clr-namespace:XPTable.AvaloniaApp"
+        Title="XPTable Avalonia Sample" Width="900" Height="600">
+  <Grid>
+    <!-- Put the XPTableControl here once implemented -->
+    <local:XPTableControl />
+  </Grid>
+</Window>
